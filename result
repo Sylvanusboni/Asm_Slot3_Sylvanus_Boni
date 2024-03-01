@@ -1,0 +1,89 @@
+
+		Sentence: "M0ur4d a 8 Merc9 et 45 je7s"
+
+
+test0: OK
+test1: OK
+test2: OK
+test3: OK
+test4: OK
+test5: OK
+test6: Invalid Output
+	Input: ['9']
+	Expected: ['9']
+	But Got:  ['8']
+test7: OK
+test8: OK
+test9: OK
+test10: OK
+test11: OK
+test12: OK
+test13: OK
+test14: OK
+test15: OK
+test16: OK
+test17: OK
+test18: OK
+test19: OK
+test20: OK
+test21: OK
+
+
+
+		Sentence: "k4fui a 60 f1mmes et 7 maîtRe5ses"
+
+
+test0: OK
+test1: OK
+test2: OK
+test3: OK
+test4: OK
+test5: OK
+test6: OK
+test7: OK
+test8: OK
+test9: OK
+test10: OK
+test11: OK
+test12: OK
+test13: OK
+test14: OK
+test15: OK
+test16: OK
+test17: OK
+test18: OK
+test19: OK
+test20: OK
+test21: OK
+
+
+
+		Sentence: 
+
+
+test0: OK
+test1: OK
+test2: OK
+test3: OK
+test4: OK
+test5: OK
+test6: OK
+test7: OK
+test8: OK
+test9: OK
+test10: OK
+test11: OK
+test12: OK
+test13: OK
+test14: OK
+test15: OK
+test16: OK
+test17: OK
+test18: OK
+test19: OK
+test20: OK
+test21: OK
+
+
+Average tests PASSED: 98.48% ====> 65/66 tests
+Average tests FAILED: 1.52% ====> 1/66 tests
