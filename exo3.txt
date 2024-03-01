@@ -1,0 +1,33 @@
+Exercice:
+
+You have to implement a function which takes two parameters. The first one is
+a string and the second one is an integer X to find in this string.
+If you find the integer X i the string, then check if :
+    - it's inferior or equal to 5 (<=5) then : n = n + 1
+    - it's superior than 5 (>5) then : n = n - 1
+    - it's equal to 9 then: '9'
+    - it's not a number or error case then : '@'
+
+Example:
+    my_find("Mourad a 1 soeur et 3 Frères", '1')     ====> return ('2')
+    my_find("Mourad a 8 sacs et 4 brosses", '8')     ====> return ('7')
+    my_find("Mourad a 5 bonbons et 9 bics", '5')     ====> return ('6')
+    my_find("Mourad a 9 bijoux et 3 bébé", '9')      ====> return ('9')
+    my_find("Mourad a 2 chiens et 4 cats", '7')      ====> return ('@')
+    my_find("Mourad a 1 soeur et 9 Frères", '\0')    ====> return ('@')
+    my_find("Mourad a 1 soeur et 9 Frères", NULL)    ====> return ('@')
+    my_find("", NULL)                                ====> return ('@')
+
+Pay attention, we only want integers, so if the integer X passed as parameter is not an integer,
+return the character for errors '@'. Also, if the number is not in the string, return '@'.
+
+
+Steps:
+
+1) Name your file fac.asm
+
+2) Name your function "my_find" and don't forget to import it (global)
+
+3) Compile with: "make re"
+
+4) Test with: ./main
